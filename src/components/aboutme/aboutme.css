@@ -1,0 +1,35 @@
+.AboutMe_container {
+  border: solid lightgrey 1px;
+  border-radius: 0.5%;
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 1px rgba(150, 150, 150, 0.79);
+  display: flex;
+  justify-content: space-evenly;
+}
+.AboutMe_contact {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+}
+.AboutMeThumbnail {
+  max-height: 120px;
+}
+.AboutMe_hr {
+  border-top: 1px solid lightgray;
+}
+.aboutme_h2 {
+  border: solid lightgrey 1px;
+  border-radius: 0.5%;
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 1px rgba(150, 150, 150, 0.79);
+  display: flex;
+  justify-content: center;
+}

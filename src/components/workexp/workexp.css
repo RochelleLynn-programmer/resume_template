@@ -1,0 +1,17 @@
+.workexpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.workexp_h2 {
+  border: solid lightgrey 1px;
+  border-radius: 0.5%;
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 1px rgba(150, 150, 150, 0.79);
+  display: flex;
+  justify-content: center;
+}

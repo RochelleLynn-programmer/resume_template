@@ -1,0 +1,68 @@
+.CardContainer {
+  border: solid lightgrey 1px;
+  border-radius: 0.5%;
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 1px rgba(150, 150, 150, 0.79);
+}
+/* Box Shadow generated at : https://html-css-js.com/css/generator/box-shadow/ */
+
+.Card_titleContain {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Card_title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.Card_years {
+  margin-top: 0;
+  color: black;
+  font-style: italic;
+  font-weight: lighter;
+}
+.Card_descContain {
+  margin: 0;
+  color: black;
+}
+.Card_descH4 {
+  color: black;
+  margin-bottom: 0;
+}
+.Card_descP {
+  color: black;
+  margin-top: 0;
+}
+.Card_skillContain {
+  color: black;
+}
+.Card_skillsH4 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.Card_skillsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card_skillItem {
+  color: black;
+  flex: 50%;
+  list-style-type: none;
+}
+li::before {
+  content: "•";
+  padding-right: 8px;
+  color: rgba(49, 10, 93, 0.9197060906515581);
+}
+
+.Card_hr {
+  border-top: 1px solid lightgray;
+}
+.Card_Img {
+  width: 100px;
+}

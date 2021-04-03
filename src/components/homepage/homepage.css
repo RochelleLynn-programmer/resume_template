@@ -1,0 +1,54 @@
+.HomePage_card {
+  border: solid lightgrey 1px;
+  border-radius: 0.5%;
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 1px rgba(150, 150, 150, 0.79);
+}
+.HomePage_titleContain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.HomePage_titleInfo {
+  color: black;
+  max-width: 500px;
+}
+
+.HomePage_profileImg {
+  border: solid lightgrey 1px;
+  max-height: 350px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 1px rgba(150, 150, 150, 0.79);
+}
+.HomePage_skillsOverview {
+  display: flex;
+  flex-wrap: wrap;
+}
+.HomePage_skillItem {
+  color: black;
+  flex: 33%;
+  list-style-type: none;
+}
+.HomePage_hr {
+  margin: 30px 0;
+  border-top: 1px solid lightgray;
+}
+
+.HomePage_contactInfoContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.HomePage_contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HomePageThumbnail {
+  max-height: 50px;
+  flex-grow: 1;
+}

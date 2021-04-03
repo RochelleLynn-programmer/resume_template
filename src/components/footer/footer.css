@@ -1,0 +1,28 @@
+.Footer_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Footer_buttonLinks {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  background: #060024;
+  background-image: -webkit-linear-gradient(top, #060024, #2f0a5d);
+  background-image: -moz-linear-gradient(top, #060024, #2f0a5d);
+  background-image: -ms-linear-gradient(top, #060024, #2f0a5d);
+  background-image: -o-linear-gradient(top, #060024, #2f0a5d);
+  background-image: linear-gradient(to bottom, #060024, #2f0a5d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: aliceblue;
+  box-shadow: 5px 5px 5px 1px rgba(55, 54, 54, 0.79);
+}
+.Footer_span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Footer_notLink {
+  color: grey;
+}

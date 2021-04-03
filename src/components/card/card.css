@@ -64,11 +64,6 @@ li::before {
 .Card_hr {
   border-top: 1px solid lightgray;
 }
-.Card_Img_Small {
+.Card_Img {
   width: 150px;
-}
-.Card_Img_Large {
-  width: 50%;
-  position: absolute;
-  right: 25%;
 }

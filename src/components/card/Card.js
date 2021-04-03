@@ -1,13 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./card.css";
+import { Link } from "react-router-dom";
 
 export function Card({ title, years, description, skills, thumbnail }) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function handlePopUp() {
-    setIsOpen(!isOpen);
-  }
-
   return (
     <>
       <div className="CardContainer">
@@ -18,12 +13,13 @@ export function Card({ title, years, description, skills, thumbnail }) {
           </div>
           <div className="Card_imgContain">
             {thumbnail ? (
-              <img
-                onClick={handlePopUp}
-                className={isOpen ? "Card_Img_Large" : "Card_Img_Small"}
-                src={`${process.env.PUBLIC_URL}/assets/${thumbnail}`}
-                alt="thumbnail of cert"
-              />
+              <Link to={`/cert/${thumbnail}`}>
+                <img
+                  className="Card_Img"
+                  src={`${process.env.PUBLIC_URL}/assets/${thumbnail}`}
+                  alt="thumbnail of cert"
+                />
+              </Link>
             ) : null}
           </div>
         </div>

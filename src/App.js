@@ -1,6 +1,6 @@
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-import { Header, WorkExp, Education, AboutMe, HomePage } from "./components";
+import { Header, WorkExp, Education, AboutMe, HomePage, PopUp } from "./components";
 import educationList from "./education.json";
 import workExpList from "./workexp.json";
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <Route path="/workexp">
           <WorkExp workExpList={workExpList} />
         </Route>
+        <Route path="/cert/:id" render={(props) => <PopUp {...props} />} />
       </Switch>
     </>
   );
